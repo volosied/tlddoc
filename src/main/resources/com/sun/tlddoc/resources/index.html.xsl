@@ -40,7 +40,7 @@
 -->
 
 <xsl:stylesheet version="1.0"
-    xmlns:javaee="http://java.sun.com/xml/ns/javaee" 
+    xmlns:jakartaee="https://jakarta.ee/xml/ns/jakartaee" 
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fo="http://www.w3.org/1999/XSL/Format">
     
@@ -51,7 +51,7 @@
       <html>
         <head>
           <title>
-            <xsl:value-of select="/javaee:tlds/javaee:config/javaee:window-title"/>
+            <xsl:value-of select="/jakartaee:tlds/jakartaee:config/jakartaee:window-title"/>
           </title>
         </head>
         <frameset cols="20%,80%">
